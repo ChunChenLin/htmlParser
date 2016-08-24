@@ -1,0 +1,1412 @@
+<!--- (1) 57813.34 ----><!--- (2) 57813.51 ---->
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Cyberlink Intranet Web Page</title>
+<LINK href="/pc/css/SR.css" rel=STYLESHEET type=text/css>
+<script src="inc/utility.js"></script>
+<script src="inc/popup.js"></script>
+<style>
+.popupLink { COLOR: red; outline: none }
+.popup { POSITION: absolute; VISIBILITY: hidden; width: 400; }
+
+a.nav:link {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	margin-right: 20px;
+	border-bottom: 1px dotted #CCCCCC;
+	text-decoration: none;
+	color: #333333;
+}
+a.nav:hover {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	margin-right: 20px;
+	border-bottom: 1px dotted #FF0000;
+	text-decoration: none;
+	color: #CC0000;
+}
+
+a.nav:visited {
+
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	margin-right: 20px;
+	border-bottom: 1px dotted #CCCCCC;
+	text-decoration: none;
+	color: #333333;
+}
+</style>
+</head>
+
+
+
+<body topmargin="0" leftmargin="0">
+<!-- wording at the top of form --><br/>
+<table id = "TT" border="0" width="750px" cellspacing="0" cellpadding="0" align="center">
+<tr>
+	<td class="noline"><a name="pagetop"><font color="brown" size=2 face=Arial><b>* Warning : </font><font size=2 face=Arial color="brown">The columns in orange color are for royalty issue, please be noticed!</font></td>
+</tr>
+
+
+
+</table>
+<br/>
+<!--Show product list-->
+<!--- (3) 57813.51 ----><a name='Top'>
+<table border='0' width='750px' cellspacing='0' cellpadding='0' align='center'><tr><td><font size='2' color='#000088'><b>Product List</b></font>
+</td></tr>
+<tr><td class='NoLine'><li><a style='color:#3A0DF2' href='#PTD00012            '><font color='#3A0DF2'><u>
+PhotoDirector&nbsp;8.0 Mac
+</a>
+</u></li></td></tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--- (4) 57813.51 ---->
+<br/>
+<p align='center'>
+<a href='#Information'  class='nav'>Information</a>
+<a href='#Comments'  class='nav'>Comments</a>
+<a href='#TRList'  class='nav'>TR List</a>
+<a href='#StatusLog'  class='nav'>Status Log</a>
+<a href='#BuildParameter'  class='nav'>Build Parameter</a>
+<a href='#Handler'  class='nav'>Handler</a>
+</p>
+
+<!--Show action button-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- functions for general users -->
+	<table id = "TT" border="0" width="750px" cellspacing="0" cellpadding="0" align="center"><tr>
+	<td>
+	 
+	<input type="button" value="Edit SR" name="ESR" id="ESR" class="BTN" onclick="ESR_onclick()">        
+	
+	<input type="button" value="Edit Build Info" name="EBI" id="EBI" class="BTN" onclick="EBI_onclick()">
+	<input type="button" value="Edit Activation Form (CAE 3.0)" name="EditActivationForm" id="EditActivationForm" class="BTN"  onclick="EditActivationForm_onclick()">
+	<input type="button" value="Support Command Line" style="display:none" name="RoyaltySupportCmdlineForm" id="RoyaltySupportCmdlineForm" class="BTN"  onclick="RoyaltySupportCmdlineForm_onclick();">
+	<!--<input type="button" value="Edit Activation ID (CAE 2.0)" name="EditActivationID" id="EditActivationID" class="BTN"  onclick="EditActivationID_onclick();">	-->
+	<input type="button" value="Create Sub SR" name="CSubSR" id="SaveAsModify" class="BTN" onclick='CSubSR_onclick();'/>
+	<input type="button" value="Create Customiztion Request" name="CCR" id="CCR" class="BTN" onclick="CCR_onclick()">
+	
+	<input type="button" value="View eBugs" name="VEB" id="VEB" class="BTN" Onclick="open_ebug()">
+	<input type="button" value="Compare SR" name="CSR" id="CSR" class="BTN" Onclick="compare_sr()">
+	
+
+			<!--<input type="button" value="Edit Project Details" name="EPD" id="EPD" class="BTN" onclick="EPD_onclick()"/>-->			
+		
+	<input type="button" value="Save As" name="SaveAsModify" id="SaveAsModify" class="BTN" onclick="SaveAsModify_onclick()" />
+  
+  <input type="button" value="Clone As" name="saveasInstantantBuild" id="saveasInstantantBuild" class="BTN" onclick="saveas_instantant_build()" />
+  <input type="button" value="Close SR" name="OSR" id="OSR" class="BTN" Onclick="Close_sr()">
+	<input type="button" value="Add Comment" name="AddComment" id="AddComment" class="BTN" Onclick="open_comment()">
+	<!--<input type="button" value="Send Mail" name="SM" class="BTN" Onclick="open_email()">-->	
+ 
+	<input type="button" value="Edit Activation Key Quantity / Include Downloader" name="ESR_KQC" id="ESR_KQC" class="BTN" onclick='ESR_QKC_onclick();'>
+	<input type="button" value="Edit Patch Info." name="ESR_KQC" id="ESR_PH" class="BTN" onclick='ESR_Patch_onclick();'>
+	
+	<!--input type="button" value="Print Label" name="PrintLabel" id="PrintLabel" class="BTN"-->
+
+	<input type="button" value="Upload Attachment" name="UAT" id="UAT" class="BTN" onclick="UAT_onclick()">
+
+	<input type="button" value="Set PL Role" name="SETPL" id="SETPL" class="BTN" Onclick="SetPL_onclick()">
+	<!--<input type="button" value="Set Generic Build" name="SETGENB" id="SETGENB" class="BTN" Onclick="SetGenBuild_onclick()">-->
+	<input type="button" value="Set Reviewer" name="SRE" id="SRE" class="BTN" onclick="SRE_onclick()">	
+	
+	<input type="button" value="Print" name="PB" id="PB" class="BTN" onclick="PB_onclick()">
+	
+	<input type="button" value="Transfer SR" name="TransSR" id="TransSR" class="BTN_BLUE" Onclick="trans_sr()">
+	<!-- functions for RD-SK member --></td></tr></Table>
+
+<input type="hidden" name="SRF_no" id="SRF_no" value="PTD160720-02">
+<input type="hidden" name="prod_no" id="prod_no" value="header$PTD00012_PTD00012$report$">
+<input type="hidden" name="SaveAsprod_no" id="SaveAsprod_no" value="PTD00012_PTD00012$">
+<form name="SaveAsInstantBuild"  action="/PC/ShowSRF/SaveAsInstantBuild.asp" method="POST">
+  <input type="hidden" name="SRF_no" value="PTD160720-02">
+</form>
+<form name="CancelSR"  action="/PC/ShowSRF/CancelSR.asp" method="POST">
+	<input type="hidden" name="SRF_no" value="PTD160720-02">
+</form>
+<form name="aTransSR"  action="/PC/ShowSRF/TransferSR.asp" method="POST">
+	<input type="hidden" name="SRF_no" value="PTD160720-02">
+</form>
+<form name="RecoverSR"  action="/PC/ShowSRF/RecoverSR.asp" method="POST">
+	<input type="hidden" name="SRF_no" value="PTD160720-02">
+</form>
+<form name="CompareSR"  action="/PC/ShowSRF/CompareTwoSR.asp" method="POST">
+	<input type="hidden" name="SRF_no" value="PTD160720-02">
+</form>
+<form name="FPDHandle" action="/PC/PCHandling/FPDHandling.asp" method="POST" target="_blank">
+	<input type="hidden" name="USerName" value="PETER_LIN">
+	<input type="hidden" name="SRF_no" value="PTD160720-02">
+	<input type="hidden" name="CustName" value="CyberLink">
+</form>
+<form name="EditFPDHandle" action="/PC/PCHandling/EditFPDHandling.asp" method="POST" target="_blank">
+	<input type="hidden" name="USerName" value="PETER_LIN">
+	<input type="hidden" name="SRF_no" value="PTD160720-02">
+</form>
+
+<script language="javascript">
+function create_tr(){
+	document.CreateTR.submit()
+}
+</script>	
+<form name="CreateTR" action="/TR/TRForm/AddTR.asp" target="_new" method="Post">
+<input type="hidden" name="NoteForTR" value="PTD160720-02">
+<input type="hidden" name="TemplateID" value="">
+<input type="hidden" name="ProductName"	value="PhotoDirector">
+<input type="hidden" name="TRHiddenProductNameString" value="">
+<input type="hidden" name="Version Type" value="Ultra                                                                                                                                                                                                                                                          ">
+<input type="hidden" name="OEM" value="CyberLink">
+<input type="hidden" name="Built by (ex: Jay)" value="PETER_LIN"><input type="hidden" name="Due Date" value="2016/9/2"><input type="hidden" name="SRPCDate" value="2016/8/19">
+<input type="hidden" name="SRDueDate" value="2016/9/2">
+<input type="hidden" name="SR No" value="PTD160720-02">
+<input type="hidden" name="Product Version" value="8.0 Mac">
+<input type="hidden" name="Build" value="8.0.2022.59787_GM2">
+<input type="hidden" name="Specific Testing Hardware" 	value="">
+</form>
+<script language="javascript">
+var SRF_no = 'PTD160720-02';
+var prod_no = document.getElementById("prod_no").value;
+var SaveAsprod_no = document.getElementById("SaveAsprod_no").value;
+function generate_affi(){ 
+	var dd = ""; 
+	dd = "http://backend.gocyberlink.com/cl_web_adm/user/e5_affiliate_generate.jsp?nCustomer=&SRNO=PTD160720-02" ; window.open(dd,"_blank","width= 600,height= 180,theSRF_request.Status=yes,toolbar=yes,menubar=yes,resizable=yes,scrollbars=yes,top=30,left=30"); 
+}
+function PB_onclick(){
+   window.print()   
+}
+function SetPL_onclick(){
+   window.location = "/pc/ShowSRF/Edit_PL_Role.asp?SRF_no=" + SRF_no;
+}
+function ESR_onclick(){
+  
+  	  window.location = "/pc/ShowSRF/EditDrewSRFItem.asp?suite=&SRF_no=" + SRF_no + "&prod_no=" + prod_no + "&EditName=&prod_noArr=" + prod_no
+  
+}
+function CSubSRBuild_onclick(){
+ 	  window.location = "/pc/ShowSRF/Edit_SubSR_Modify_BuildName.asp?SRF_no=" + SRF_no;
+}
+function CSubSR_onclick(){
+  	  window.location = "/pc/ShowSRF/Edit_SubSR_Create.asp?SRF_no=" + SRF_no;
+}
+function ESR_QKC_onclick(){
+  	  window.location = "/pc/ShowSRF/QuantityControlEdit.asp?ShowErr=Yes&SRF_no=" + SRF_no;
+}
+function VSR_Patch_onclick(){
+  	  window.location = "/pc/ShowSRF/EditSRPatchInfo_View.asp?SRF_no=" + SRF_no;
+}
+function ESR_Patch_onclick(){
+  	  window.location = "/pc/ShowSRF/EditSRPatchInfo.asp?SRF_no=" + SRF_no;
+}
+function FPD_onclick(){
+  	  document.FPDHandle.submit();
+}
+function EPD_onclick(){
+  	  document.EditFPDHandle.submit();
+}
+function SaveAs_onclick(){
+  	  window.location = "/pc/ShowSRF/SaveAsSRF.asp?SRF_no=" + SRF_no + "&prod_no=" + SaveAsprod_no + "&EditName=";
+}
+function SaveAsModify_onclick(){
+  	  window.location = "/pc/ShowSRF/SaveAsSRFModify.asp?SRF_no=" + SRF_no + "&prod_no=" + SaveAsprod_no + "&EditName=";
+}
+function UAT_onclick(){
+  	  window.location = "/pc/ShowSRF/SR_Attach.asp?SRF_no=" + SRF_no;
+}
+function AddResponsiblePerson_onclick(){
+  	  window.location = "/PC/PCHandling/PCHandling.asp?SRF_no=" + SRF_no;
+}
+function EditResponsiblePerson_onclick(){
+  	  window.location = "/PC/PCHandling/EditPCHandling.asp?SRF_no=" + SRF_no;
+}
+function EBI_onclick(){
+  	  window.location = "/PC/BuildInfo/EditSRBuildInfoSelectPro.asp?SRF_no=" + SRF_no;
+}
+function CCR_onclick(){	  
+  	  window.open("/IssueFlow/Form/FormSelect/29?SRF_no=" + SRF_no);
+}
+function SRE_onclick(){
+  	  window.location = "/PC/ShowSRF/SetReviewList.asp?SRF_no=" + SRF_no;
+}
+function open_email()
+{
+	var dd=""+"/PC/ShowSRF/EmailList.asp?SRF_No=" + SRF_no;
+	window.open(dd,"_blank","resizable=yes,width=300,height=10,status=no,top=150,screenY=150,left=150,screenX=150");
+}
+
+
+function open_rebuild(url) { window.open(url,"_blank","width= 600,height= 500,status=yes,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function open_comment() { var dd = ""; dd = "/PC/ShowSRF/Comment.asp?SRF_No=" + SRF_no ; window.open(dd,"_blank","width= 550,height= 200,status=yes,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function open_pcmodify() { var dd = ""; dd = "/PC/ShowSRF/PCModifyShow.asp?SRF_No=" + SRF_no ; window.open(dd,"_blank","width= 550,height= 300,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function open_workingtime() { var dd = ""; dd = "/PC/ShowSRF/WorkingTimeEdit.asp?SRF_No=" + SRF_no ; window.open(dd,"_blank","width= 750px,height= 180,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+  function open_createini() { var dd = ""; dd = "/PC/BuildInfo/CreateINI.asp?SRF_No=" + SRF_no ; window.open(dd,"_blank","width= 600,height= 180,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+  function open_createureg() { var dd = ""; dd = "/PC/BuildInfo/CreateUREG.asp?SRF_No=" + SRF_no ; window.open(dd,"_blank","width= 600,height= 180,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+  function saveas_instantant_build(){ if (confirm("After the SR is cloned, the new SR would clone the entire build so it would be exactly the same.\nThe RD/Design/Doc build kernel, and Activation settings, activation IDs will be cloned.\nIf the cloned SR shouldn't be counted as same activation unit, please don't use [Clone As], but use [Save As].\nAre you sure that you want to do [Clone As]?") ){ document.SaveAsInstantBuild.submit(); return true ; } return false ; }
+  function cancel_sr(){ if (confirm("Really want to canel this shipping request?") ){ document.CancelSR.submit(); return true ; } return false ; }
+  function recover_sr(){ document.RecoverSR.submit(); }
+  function compare_sr() { document.CompareSR.submit(); }
+  function add_new_sr(){ window.open("/PC/ShowSRF/AddSRF.asp","_blank","width= 800,height= 600,status=no,toolbar=yes,menubar=yes,resizable=yes,scrollbars=yes,top=30,left=30"); }
+  function open_pcsendpl(url) { window.open("/PC/BuildInfo/PCSendToPL_ProdSelect.asp?SRF_no=" + SRF_no,"_blank","width= 750px,height= 500,status=yes,toolbar=yes,menubar=yes,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function set_autobuild(action) { if (action=='Disable') { if (confirm("Are you sure to disable auto build?") ) { window.location.href="/PC/ShowSRF/ShowSRFResult.asp?SRF_no="+SRF_no+"&DAction=" + action ; } }
+	if (action=='Able') { if (confirm("Are you sure to run auto build?") ) { window.location.href="/PC/ShowSRF/ShowSRFResult.asp?SRF_no="+SRF_no+"&DAction=" + action ; } } }
+function edit_duedate() { var dd = ""; dd = "/PC/ShowSRF/EditDueDate.asp?SRF_No="+SRF_no ; window.open(dd,"_blank","width= 600,height= 500,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function view_duedate() { var dd = ""; dd = "/PC/ShowSRF/ViewDueDate.asp?SRF_No="+SRF_no ; window.open(dd,"_blank","width= 750px,height= 500,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function confirm_sr() { if (confirm("Really want to confirm this shipping request??") )
+      { var dd = ""; dd = "/PC/ShowSRF/ConfirmSR.asp?SRF_No="+SRF_no ; window.open(dd,"_blank","width= 550,height= 300,status=no,toolbar=no,menubar=no,resizable=no,scrollbars=yes,top=30,left=30"); } else { return false; } }
+function return_sr() {
+	if (confirm("Really want to return this shipping request to Issuer??")) {
+		var dd = "";
+		dd = "/PC/ShowSRF/ReturnSR.asp?SRF_No="+SRF_no;
+		window.open(dd,"_blank","width= 550,height= 300,status=no,toolbar=no,menubar=no,resizable=no,scrollbars=yes,top=30,left=30");
+	}
+	else
+		return false;
+}
+function resubmit_sr() {
+	if (confirm("Really want to re-submit this shipping request??")) {
+		var dd = "";
+		dd = "/PC/ShowSRF/ReSubmitSR.asp?SRF_No="+SRF_no;
+		window.open(dd,"_blank","width= 550,height= 300,status=no,toolbar=no,menubar=no,resizable=no,scrollbars=yes,top=30,left=30");
+	}
+	else
+		return false;
+}
+function open_ebug() { var dd = ""; dd = "/PC/ShowSRF/EbugSearch.asp?SRF_No="+SRF_no ; window.open(dd,"_blank","width= 800,height= 500,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function EditActivationID_onclick() { var dd = ""; dd = "/PC/ShowSRF/EditActivationID.asp?SRF_No="+SRF_no ; window.open(dd,"_blank","width= 770,height= 250,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function EditActivationForm_onclick() { var dd = ""; dd = "/PC/ShowSRF/OnlineActivation2.asp?SRF_No="+SRF_no ; window.open(dd,"_blank","width= 1300,height= 750px,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function RoyaltySupportCmdlineForm_onclick() { var dd = ""; dd = "/PC/ShowSRF/RoyaltySupportCmdline.asp?SRF_No="+SRF_no ; window.open(dd,"_blank","width= 650,height= 600,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function open_pvm() { var dd = ""; dd = "/PMS/Product/CDSAdd.aspx?SRF_No="+SRF_no ; window.open(dd,"_blank","width= 800,height= 500,status=yes,toolbar=yes,menubar=yes,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function open_pending(url) { window.open(url,"_blank","width= 600,height= 500,status=yes,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function edit_projectcode() { var dd = ""; dd = "/PC/ShowSRF/EditProjectCode.asp?SRF_No="+SRF_no ; window.open(dd,"_blank","width= 800,height= 150,status=yes,toolbar=yes,menubar=yes,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function reopen_sr() { var dd = ""; dd = "/PC/ShowSRF/EditDueDate.asp?SRF_No="+SRF_no+"&FromWhich=Reopen" ; window.open(dd,"_blank","width= 600,height= 500,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function approve_sr() { var dd = ""; dd = "/PC/ShowSRF/ApproveSR.asp?SRF_No="+SRF_no+"&FromWhich=SRForm" ; window.open(dd,"_blank","width= 750px,height= 180,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30"); }
+function Close_sr() {
+	if (confirm("Really want to close this SR directly?")) {		
+		window.location = "/PC/ShowSRF/CloseSR.asp?SRF_no="+SRF_no+"&FromWhich=DirectClose"
+	}
+	else
+		return false;
+}
+function open_reject(url)
+{
+      window.open(url,"_blank","width= 600,height= 500,status=yes,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30");
+}
+function resume_sr()
+{
+      var dd="";
+      dd= "/PC/ShowSRF/EditDueDate.asp?SRF_No="+SRF_no+"&FromWhich=Resume" ;
+      window.open(dd,"_blank","width= 10,height= 10,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30");
+}
+function trans_sr() { document.aTransSR.submit(); }
+function resume_sr()
+{
+      var dd="";
+      dd= "/PC/ShowSRF/EditDueDate.asp?SRF_No="+SRF_no+"&FromWhich=Resume" ;
+      window.open(dd,"_blank","width= 10,height= 10,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30");
+}
+function trans_sr() { document.aTransSR.submit(); }
+
+  </script><!--- (5) 57813.57 ---->
+<a name='Information'>
+<br/>
+<!--Show head -->
+<!--- (6) 57813.57 ----><table style='margin-left:auto;margin-right:auto;' border='0' width='750px' cellspacing='1'><tr>
+<td width='300'><b>SR Number</td><td width='350' align='left'>: <a href="https://ecl.cyberlink.com/pc/ShowSRF/ShowSRFResult.asp?SRF_no=PTD160720-02">PTD160720-02</a></td>
+</tr><tr>
+<td><b>Customer Name1</td><td>: CyberLink</td>
+</tr>
+<tr><td><b>Build Complete Due</td><td>: 2016/8/19
+</td></tr>
+<tr><td><b>QA Complete Due</td><td>: 2016/9/2
+</td></tr>
+<tr>
+<td><b>BU/REP</td><td>: CLT&nbsp;</td>
+</tr>
+<tr>
+<td><b>Sales Type</td><td>: iSales&nbsp;</td>
+</tr><tr>
+<tr>
+<td><b>BTA No.</td><td>: <a href='https://ecl.cyberlink.com/BTA/Form/ShowBTAItem_Royalty?BTAItemNo=' target='_Blank'></a>&nbsp;</td>
+</tr><tr>
+<td><b>Status</td><td><font color=blue>: QA Testing</font></td>
+</tr><tr>
+<td><b>Priority</td><td>: 
+<font color=red><b>High</b></font>
+</td>
+</tr><tr>
+<td><b>Hardware Type</td><td>: None&nbsp;</td>
+</tr><tr>
+<td><b>Purpose</td><td>: Shipping</td>
+</tr><tr>
+<td><b>Big Bang</td><td>: Default&nbsp;
+</td>
+</tr><tr>
+<td><b>ProjectCode</td><td>: </td>
+</tr><tr>
+<td><b>Related SR</td><td>: 
+<a href='https://ecl.cyberlink.com/PC/ShowSRF/ShowSRFResult.asp?SRF_no=PTD160719-01'>PTD160719-01</a>
+&nbsp;</td>
+</tr><tr>
+<td><b>Related TSR</td><td>: 
+&nbsp;</td>
+</tr><tr>
+<td><b>Related TR</td><td>: 
+&nbsp;</td>
+</tr><tr>
+<td><b>Related eBug</td><td>: 
+&nbsp;</td>
+</tr><tr>
+<td colspan='2'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;</td>
+</tr><tr>
+<td><b>Keep those products exactly same as previous SR</td><td>: 
+&nbsp;</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+<table border="0" width="750px" cellspacing="0" cellpadding="0" align="center"><tr>
+<td colspan='2' align='right'>
+	<a href="javascript:edit_duedate();"><u>Edit Due Date</u></a>&nbsp;&nbsp;
+	<a href="javascript:view_duedate();"><u>View Due Date Log</u></a>
+</td>
+</tr>
+
+</table>
+<br/>
+<!--Show BigBang list-->
+<table  style='margin-left:auto;margin-right:auto;' border='0' width='750px' cellspacing='1' align='center'><tr height='45'>
+<td width='400' rowspan='8' valign='middle' align='Left' class='ManuTitle'>Big Bang Definition&nbsp;<font size='2'></Font></td></tr>
+</table>
+<table border='0' width='750px' cellspacing='0' cellpadding='0' align='center'>
+<tr>
+<td width='200'><b>ProductVersionType</td>
+<td width='200'><b>Is Support BBDF</td>
+<td width='200'><b>BBDF Form No</td>
+</tr>
+<tr>
+<td width='200'>PhotoDirector 8.0 Mac Ultra</td>
+<td width='200'>Yes</td>
+<td width='200'><a href='../../../IssueFlow/Form/ShowUIForm/28/30579'>30579(Revise BBDF)</a></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/>
+<!--Show form : body, buildinfo--> 
+<!--- (8) 57813.7 ---->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name='PTD00012'>
+<table border='0' width='750px' cellspacing='1' align='center'><tr height='45'>
+<td width='400' rowspan='8' valign='middle' align='Left' class='ManuTitle'>
+PhotoDirector&nbsp;8.0 Mac
+<font size='2'></Font>
+</td></tr></table>
+<table border='0' cellspacing='1' width='750px' align='center' ><tr><td colspan='2' valign='middle' align='left' bgcolor='#F5F4DA'><li><font color='#0000A0'><b>Basic</b></font></li></td></tr>
+<tr><td width = '300'><b>Product Name</b></td><td width='350'> :PhotoDirector</td></tr>
+<tr><td><b>Version Type</b></td><td> :Ultra</td></tr>
+<tr><td><b>Trial Days</b></td><td> :NA</td></tr>
+<tr><td><b>Company Name</b></td><td> :CyberLink Corp.</td></tr>
+<tr><td><b>CD Key</b></td><td> :Need CDKey<br> (CDKey Header: UL)<br></td></tr>
+<tr><td><b>Installation Type</b></td><td> :Normal installation</td></tr>
+<tr><td><b>Delivery Format</b></td><td> :Setup Kit with Auto Setup</td></tr>
+<tr><td><b>Language</b></td><td> :9 languages + Nld&nbsp;(<font color='red'>Enu, Cht, Chs, Jpn, Kor, Deu, Esp, Fra, Ita, Nld</font>)</td></tr>
+<tr><td><b>Package Type</b></td><td> :PKG Package</td></tr>
+<tr><td><b>Dolby Share Compoent</b></td><td> :No</td></tr>
+<tr><td><b>Hardware Lock in setup process</b></td><td> :No</td></tr>
+<tr><td><b>Accessaries</b></td><td> :On-line Registration</td></tr>
+<tr><td><b>BU</b></td><td> :CLT</td></tr>
+<tr><td><b>Installation Path</b></td><td> :[PROGRAMFILES]\CyberLink\PhotoDirector</td></tr>
+<tr><td><b>Desktop Shortcut</b></td><td> :Default Format</td></tr>
+<tr><td><b>StartMenu</b></td><td> :Yes - Pre-defined Format,&nbsp;Company Product MajVer</td></tr>
+<tr><td><b>Add/Remove Program</b></td><td> :Default Format</td></tr>
+<tr><td><b>Limit SR</b></td><td> :No</td></tr>
+<tr><td><b>Customer ini</b></td><td> :</td></tr><tr><td colspan='2' width='100%'>~~~~~Key Ini~~~~~<br>SCProdName=[CompanyName] [ProductName][MajorVersion]<br>SCFolderName=NA<br>BU=CLT</td></tr>
+<tr><td><b>CDKey Online Activation</b></td><td> :Yes</td></tr>
+</table>
+
+
+
+
+
+
+
+
+
+<table border='0' cellspacing='1' width='750px' align='center' ><tr><td colspan='2' valign='middle' align='left' bgcolor='#F5F4DA'><li><font color='#0000A0'><b>RD</b></font></li></td></tr>
+<tr><td width = '300'><b>Build Number</b></td><td width='350'> :<font color='red'><font color='red'>8.0.2022.59787_GM2</font></font></td></tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table border='0' cellspacing='1' width='750px' align='center' ><tr><td colspan='2' valign='middle' align='left' bgcolor='#F5F4DA'><li><font color='#0000A0'><b>UI and Documentation</b></font></li></td></tr>
+<tr><td width = '300'><b>Readme</b></td><td width='350'> :No</td></tr>
+<tr><td><b>User Guide</b></td><td> :No</td></tr>
+<tr><td><b>UI/Skin</b></td><td> :Product Default</td></tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table border='0' cellspacing='1' width='750px' align='center' ><tr><td colspan='2' valign='middle' align='left' bgcolor='#F5F4DA'><li><font color='#0000A0'><b>QA Testing</b></font></li></td></tr>
+<tr><td width = '300'><b>QA Testing</b></td><td width='350'> :Yes</td></tr>
+<tr><td><b>Testing Operation System (for TR)</b></td><td> :Other&nbsp;(<font color='red'>Mac OS 10.8 above</font>)</td></tr>
+<tr><td><b>Testing OS Language(for TR)</b></td><td> :9 Languages,&nbsp;Other&nbsp;(<font color='red'>NLD</font>)</td></tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table border='0' cellspacing='1' width='750px'align='center' >
+<tr>
+<td width = '300'><b>Note</b></td><td width='350'> : </td>
+</tr><tr><td colspan='2'>
+This SR is for [PhotoDirector 8 Ultra GM 2 (Mac)_for iSales].<br><br>Major updates:<br>- Critical bug fixing for FCS<br><br>Major Features:<br>- Video Photo Creator (No TT)<br>- Burst Shot Composer<br>- Overlays<br>- Motion Blur<br>...<br><br>== Support Mac OS X 10.8 above as below RD comment==<br>PhD playback the video via system AV Foundation, but can’t get the current frame after PAUSE. But iOS 10.8 or later provides an new API, which can get the pause frame directly from decoder.
+</td></tr>
+</table>
+<table width='750px' cellspacing='0' cellpadding='0' align='center'><tr><td width=120 valign=top><b>
+<br><span style='font-size:12px'>Build Info:</span></b>
+<table width='100%' style='BORDER-COLLAPSE: collapse' border='1' bordercolor='#DFDFDF' ><tr bgcolor='#DFDFDF'><td class=noline2 colspan=4><b><font color=blue size=2>RD Build Information :</b></font></td></tr>
+<tr>
+<td width='25%'><b>Build</b>:</td><td width='25%'>8.0.2022.59787_GM2</td>
+<td width='25%'><b>SKR_Ver</b>:</td><td width='25%'>28257_60586</td>
+</tr>
+<tr>
+<td><b>DisplayBuildNumber</b>:</td><td>8.0.2022.0</td>
+</table><br/>
+<table width='100%' style='BORDER-COLLAPSE: collapse' border='1' bordercolor='#DFDFDF' ><tr bgcolor='#DFDFDF'><td class=noline2 colspan=4><b><font color=blue size=2>Setup Build Information :</b></font></td></tr>
+<tr>
+<td width='25%'><b>Setup</b>:</td><td width='25%'>21116</td>
+<td width='25%'><b>Branch</b>:</td><td width='25%'>Generic</td>
+</tr>
+<tr>
+<td><b>Script</b>:</td><td>23096</td>
+<td><b>Script_Branch</b>:</td><td>PKG</td>
+</tr>
+</table><br/>
+<table width='100%' style='BORDER-COLLAPSE: collapse' border='1' bordercolor='#DFDFDF' ><tr bgcolor='#DFDFDF'><td class=noline2 colspan=4><b><font color=blue size=2>Doc Build Information :</b></font></td></tr>
+<tr>
+<td width='25%'><b>Help</b>:</td><td width='25%'>20160804_10L_Mac</td>
+<td width='25%'><b>RC</b>:</td><td width='25%'>20160823_59794</td>
+</tr>
+</table><br/></td></tr></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table border='0' width='750px' align='center'><tr><td align='right' class='Noline'><a href='#Top'><font color='blue'></b><u>Top</u></font></a></td></tr></table>
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/><center>
+<a name='TRList'>
+<table width='640' cellspacing='0' cellpadding='0'><tr><td><font color='#000080' style='font-family: Arial; font-size:12px'><b>&nbsp;Testing Request List :</b></font></td></tr></table>
+<table border='1' width='640' cellspacing='0' cellpadding='0' frame='box' width='70%'><tr bgcolor='336699' align='center'>
+<td><font color=white>No</font></td><td><font color=white>TRCode</font></td><td><font color=white>Test Result</font></td><td><font color=white>Status</font></td><td><font color=white>Shippable</font></td><td><font color=white>Requester<br/>Shippable</font></td></tr>
+<tr>
+<td>1</td>
+<td><a href='https://ecl.cyberlink.com/TR/TRHandle/HandleMainTR2.asp?TRCode=TR160810-043' target='_new'>TR160810-043</a>
+<a href='/pc/ShowSRF/ShowAutoCreateTRLog.asp?TRCode=TR160810-043&SRF_no=PTD160720-02' target='_new'><img src='/eModule/img/page.gif' border='0'></a></td>
+<td>Done
+</td>
+<td>Fail</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href='https://ecl.cyberlink.com/TR/TRHandle/HandleMainTR2.asp?TRCode=TR160817-006' target='_new'>TR160817-006</a>
+<a href='/pc/ShowSRF/ShowAutoCreateTRLog.asp?TRCode=TR160817-006&SRF_no=PTD160720-02' target='_new'><img src='/eModule/img/page.gif' border='0'></a></td>
+<td>Done
+</td>
+<td>Fail</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href='https://ecl.cyberlink.com/TR/TRHandle/HandleMainTR2.asp?TRCode=TR160818-001' target='_new'>TR160818-001</a>
+<a href='/pc/ShowSRF/ShowAutoCreateTRLog.asp?TRCode=TR160818-001&SRF_no=PTD160720-02' target='_new'><img src='/eModule/img/page.gif' border='0'></a></td>
+<td>Done
+</td>
+<td>Fail</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href='https://ecl.cyberlink.com/TR/TRHandle/HandleMainTR2.asp?TRCode=TR160822-051' target='_new'>TR160822-051</a>
+<a href='/pc/ShowSRF/ShowAutoCreateTRLog.asp?TRCode=TR160822-051&SRF_no=PTD160720-02' target='_new'><img src='/eModule/img/page.gif' border='0'></a></td>
+<td>Assigned
+</td>
+<td></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<table border='0' width='650' align='center'><tr><td align='right' class='Noline'><a href='#Top' class='nav'><font color='blue'></b><u>Top</u></font></a></td></tr></table>
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/><a name='StatusLog'>
+<table style='margin-left:auto;margin-right:auto;' width='750px' cellspacing='0' cellpadding='0'><tr><td><font color='#000080' style='font-family: Arial; font-size:12px'><b>&nbsp;Status Log :</b></font></td></tr></table>
+<table style='margin-left:auto;margin-right:auto;' border='0' width='750px' cellspacing='0' cellpadding='0' frame='box' width='70%'>
+<tr height=25><td><font color=#6868FF><li>
+<Span id='Show_Log_PTD00004'>
+<a href="javascript:getStatusLog('show','PTD00004')">
+<img src='https://ecl.cyberlink.com/pc/img/plus.gif' border='0'></a>
+</Span>
+<Span id='Hidden_Log_PTD00004' Style='display:none'>
+<a href="javascript:getStatusLog('hidden','PTD00004')">
+<img src='https://ecl.cyberlink.com/pc/img/minus.gif' border='0'></a>
+</Span>
+<b>PhotoDirector</b></font>
+</td></tr></table>
+<Span id='Log_PTD00004' Style='display:none'></Span>
+<table style='margin-left:auto;margin-right:auto;' border='0' width='750px' cellspacing='0' cellpadding='0' frame='box' width='70%'>
+<tr height=25><td><font color=#6868FF><li>
+<Span id='Show_Log_PTD00012'>
+<a href="javascript:getStatusLog('show','PTD00012')">
+<img src='https://ecl.cyberlink.com/pc/img/plus.gif' border='0'></a>
+</Span>
+<Span id='Hidden_Log_PTD00012' Style='display:none'>
+<a href="javascript:getStatusLog('hidden','PTD00012')">
+<img src='https://ecl.cyberlink.com/pc/img/minus.gif' border='0'></a>
+</Span>
+<b>PhotoDirector</b></font>
+</td></tr></table>
+<Span id='Log_PTD00012' Style='display:none'></Span>
+<table border='0' width='750px' align='center'><tr><td align='right' class='Noline'><a href='#Top' class='nav'><font color='blue'></b><u>Top</u></font></a></td></tr></table>
+<script>
+var xmlHttp = false;
+var g_prod_no = '';
+function getStatusLog(display_status, prod_no){
+g_prod_no = prod_no;
+var url = 'https://ecl.cyberlink.com/pc/showsrf/getSRStatusLog.asp?SRF_no=PTD160720-02&prod_no='+g_prod_no;
+if(display_status == 'show'){
+	if(document.getElementById('Log_'+g_prod_no).innerHTML == ''){
+		try {
+			xmlHttp = new ActiveXObject('Msxml2.XMLHTTP');
+		} catch (e) { 
+			try {
+				xmlHttp = new ActiveXObject('Microsoft.XMLHTTP');
+			} catch (e2) {
+				xmlHttp = false;
+			}
+		}
+		if (!xmlHttp && typeof XMLHttpRequest != 'undefined') {
+			xmlHttp = new XMLHttpRequest();
+		}
+		if (xmlHttp) {
+			xmlHttp.open('GET', url, true);
+			xmlHttp.onreadystatechange = upd_status_log;
+			xmlHttp.send(null);
+		}
+	}
+	document.getElementById('Log_'+g_prod_no).style.display = '';
+	document.getElementById('Show_Log_'+g_prod_no).style.display = 'none';
+	document.getElementById('Hidden_Log_'+g_prod_no).style.display = '';
+}else {
+	document.getElementById('Log_'+g_prod_no).style.display = 'none';
+	document.getElementById('Show_Log_'+g_prod_no).style.display = '';
+	document.getElementById('Hidden_Log_'+g_prod_no).style.display = 'none';
+}
+}
+function upd_status_log(){
+if (xmlHttp){
+	if (xmlHttp.readyState == 4) {
+		if (xmlHttp.status == 200) {
+			var response = xmlHttp.responseText;
+			document.getElementById('Log_'+g_prod_no).innerHTML = response;
+		} 
+	}
+}
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/><a name='BuildParameter'>
+<table style='margin-left:auto;margin-right:auto;' width='750px' cellspacing='0' cellpadding='0'><tr><td><font color='#000080' style='font-family: Arial; font-size:12px'><b>&nbsp;Auto Build Parameter :</b></font></td></tr></table>
+<table style='margin-left:auto;margin-right:auto;' border=1 width='750px' cellspacing='0' cellpadding='0' frame='box' width='70%'><tr bgcolor='336699' align='center'><td width='3%'><font color=white>#</font></td><td width='20%'><font color=white>Product</font></td><td width='5%'><font color=white>Type</font></td><td width='60%'><font color=white>Value</font></td></tr>
+<tr><td rowspan='5'>1</td><td rowspan='5'>PhotoDirector&nbsp;8.0 Mac
+<br><br><A href='/PC/ShowSRF/ShowBuildParaHistory.asp?SRF_no=PTD160720-02&prod_no=PTD00012' targer='_blank'>History Log</a></td>
+<td>Time</td><td align=left>2016/8/22 下午 06:50:40</td></tr>
+<tr><td>Parameter</td>
+<td align=left>/vender=CyberLink  /vtype=Mac  /language='Enu,Cht,Chs,Jpn,Kor,Deu,Esp,Fra,Ita,Nld'  /cdkey=1  /Custom.olreg=1  /Custom.ug=0  /AutoRun=1  /Custom.readme=0  /DolbyShare=0  /BuildType=PKG /AsSingleProdinCombo=1&nbsp;</td></tr>
+<tr><td>Customize</td>
+<td align=left>&nbsp;No</td>
+</tr>
+<tr><td>GetSource Para.</td>
+<td align=left>8.0.2022.59787_GM2 PKG 21116 Generic 28257_60586&nbsp;</td></tr>
+<tr><td>Sim Para.</td>
+<td align=left>&nbsp;</td></tr>
+</table>
+<table border='0' width='750px' align='center'><tr><td align='right' class='Noline'><a href='#Top' class='nav'><font color='blue'></b><u>Top</u></font></a></td></tr></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/><table style='margin-left:auto;margin-right:auto;' width='750px' cellspacing='0' cellpadding='0'>
+<tr>
+<td><font color="#000080" style="font-family: Arial; font-size:12px"><b>&nbsp;Working Time Evaluation  ( PC Department ONLY ):</b></font></td>
+</tr>
+</table>
+<table style='margin-left:auto;margin-right:auto;' border=1 width='750px' cellspacing='0' cellpadding='0' frame=box >
+<tr bgcolor="336699" align=center>
+<td width='60'><font color=white>Job</font></td>
+<td width='80' nowrap><font color=white>Working Time</font></td>
+<td width='80'><font color=white>Begin Date</font></td>
+<td width='80'><font color=white>End Date</font></td>
+<td><font color=white>Description</font></td>
+</tr>
+<tr align=center>
+<td>Bulider</td>
+<td align=center></td>
+<td align=center></td>
+<td align=center></td>
+<td align=left></td>
+</tr>
+<tr align=center>
+<td>Art</td>
+<td align=center></td>
+<td align=center></td>
+<td align=center></td>
+<td align=left></td>
+</tr>
+<tr align=center>
+<td>Writer</td>
+<td align=center></td>
+<td align=center></td>
+<td align=center></td>
+<td align=left></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/><table style='margin-left:auto;margin-right:auto;' width='750px' cellspacing='0' cellpadding='0'><tr><td><font color='#000080' style='font-family: Arial; font-size:12px'><b>&nbsp;Rebuild Info ( PC Department ONLY ):</b></font></td></tr></table>
+<table style='margin-left:auto;margin-right:auto;' border=1 width='750px' cellspacing='0' cellpadding='0' frame=box ><tr bgcolor='336699' align=center><td width='7%'><font color=white></font></td><td width='20%'><font color=white>Rebuilder</font></td><td><font color=white>Reason</font></td><td width='10%'><font color=white>Edit</font></td><td width='25%'><font color=white>Rebuild Date</font></td></tr>
+<tr align=center>
+<td>1</td>
+<td>SR_AUTO</td>
+<td align=left>
+</td>
+<td>&nbsp;</td>
+<td>2016/8/17 下午 03:24:45</td>
+</tr>
+<tr align=center>
+<td>2</td>
+<td>SR_AUTO</td>
+<td align=left>
+</td>
+<td>&nbsp;</td>
+<td>2016/8/18 上午 11:12:34</td>
+</tr>
+<tr align=center>
+<td>3</td>
+<td>SR_AUTO</td>
+<td align=left>
+</td>
+<td>&nbsp;</td>
+<td>2016/8/22 下午 06:51:25</td>
+</tr>
+</table>
+<script language='javascript'>
+function getRebuild(RebuildID,SRF_no){
+window.open("/PC/ShowSRF/RebuildUpdate.asp?SRF_No="+SRF_no+"&RebuildID="+RebuildID,"_blank","width= 600,height= 500,status=yes,toolbar=no,menubar=no,resizable=yes,scrollbars=yes,top=30,left=30");
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/>
+<br/>
+<!--Show footer -->
+<a name='Handler'>
+<!--- (9) 57813.84 ----><table style='margin-left:auto;margin-right:auto;' border='0' width='750px' cellspacing='0' cellpadding='0' frame='box'>
+<tr>
+<td width='100%' align='right'>Request Date:2016/7/20</td>
+</tr>
+</table>
+<table style='margin-left:auto;margin-right:auto;' border='1' width='750px' cellspacing='0' cellpadding='0' frame='box'>
+<tr>
+<td  width='30%' align='center'>PL</td>
+<td  width='15%' align='center'>Builder</td>
+<td  width='15%' align='center'>Art</td>
+<td  width='15%' align='center'>Writer</td>
+<td  width='15%' align='center'>Requester</td>
+</tr>
+<tr>
+<td height='60' align='center'>
+<table border=0>
+<tr class='Noline'><td class='Noline'><b>PhotoDirector</b></td><td class='Noline'>KEVEN_CHEN</td></tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;</td>
+<td height='60' align='center'>
+HUGO_YEH
+&nbsp;</td>
+<td height='60' align='center'>
+AYDIN_KU<br> IRENE_LIN
+&nbsp;</td>
+<td height='60' align='center'>
+JACKMH_LIN
+&nbsp;</td>
+<td height='60' align='center'>JACK_TU</td>
+</tr>
+</table>
+
+
+<table border='0' width='750px' align='center'><tr><td align='right' class='Noline'><a href='#Top' class='nav'><font color='blue'></b><u>Top</u></font></a></td></tr></table>
+<br/>
+<SCRIPT LANGUAGE="JavaScript">
+// CLive Project  2008/01/22
+function openCLiveForm(SR, FID, type) {
+	var openUrl;
+	if (type == 1) {
+		 var openUrl = 'https://backend.cyberlinklive.com/featureAuth/adm?service=PackageCreation&srno=' + SR + '&customerName=CyberLink&customerID=2581';
+	} else {
+		openUrl = 'https://backend.cyberlinklive.com/featureAuth/adm?service=PackageCreation&srno=' + SR + '&formid=' + FID;
+	}
+	var w = window.open( openUrl, "CLLiveAuthKey", "width=800,height=500,status=no,toolbar=yes,menubar=yes,resizable=yes,scrollbars=yes");
+}
+function UpdateCLiveFromCode() {
+	alert("UpdateCLiveFromCode");
+
+	var formIdObj;
+	var eles = document.getElementsByName("CLLiveForm");
+	alert("eles="+eles.length);
+	for (var i=0; i<eles.length; i++) {
+		formIdObj = eles[i];
+		break;
+	}
+	alert("formIdObj="+formIdObj);
+	if (formIdObj != null) {
+		alert("new form code is " + formIdObj.value + ". Please save to DB!!");
+	}
+	// update by Ajax
+	
+	// reflush
+	if (formIdObj.value != "") {
+		formIdObj.form.submit();
+	}
+
+	return false;
+}
+
+</SCRIPT>
+
+</body>
+</html>
