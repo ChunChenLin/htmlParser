@@ -49,7 +49,24 @@ Royalty = ['H.264/MPEG-4 AVC to AT&T',
            'MPEG-2/4 AAC to VIA Licensing',
            'H.265/MPEG HEVC to HEVC Advance LLC',
            'H.265/MPEG HEVC to MPEG-LA',
-           'MPEG-2 Video']
+           'MPEG-2 Video',
+           'AMR-NB',
+           'BD Patent Pool - BD3C',
+           'BD Patent Pool - BD4C','DTS 5.1ch Producer (Encoder)',
+           'DTS decoder',
+           'DVD 6C Patent Pool',
+           'DVD One Red',
+           'Dolby Digital 5.1 Creator',
+           'olby Digital Consumer Decoder (DDCD)',
+           'Dolby Digital Plus Consumer Decoder(DDPlus)',
+           'MVC to MPEG-LA',
+           'Patent Harbor - Interactive Menu',
+           'Sensio 3D/2D',
+           'NewBlue Effect Packs for Director Suite',
+           'NewBlue Effect Packs for PowerDirector Ultimate',
+           'NewBlue Effect Packs for Ultimate Suite',
+           'roDAD Effect Packs for Director Family',
+           'MPEG-1/2 Audio (Decoder)']
 
 for i in Basic:
     collect[i].append('NA')
@@ -62,6 +79,15 @@ number1 = int(raw_input("(3)Please enter the Number of Basic you want to compare
 number2 = int(raw_input("(4)Please enter the Number of Basic you want to compare:"))
 output = raw_input("(5)Please enter the file name you want to export:")
 
+#SR
+for i in range(200):
+    if 'SR Number' in soup1.select('td')[i].text:
+        collect['SR Number'][0] = soup1.select('td')[i+1].text
+
+for i in range(200):
+    if 'SR Number' in soup2.select('td')[i].text:
+        collect['SR Number'][1] = soup2.select('td')[i+1].text
+        
 start1 = 0
 end1 = 0
 count = 0
@@ -111,8 +137,8 @@ diff = workbook.add_format({'bold': True, 'font_color': 'blue'})
 row = 1
 col = 0
 worksheet.write(0, col, "Basic&Royalty", format)
-#worksheet.write(0, col + 1, collect['SR Number'][0], format)
-#worksheet.write(0, col + 2, collect['SR Number'][1], format)
+worksheet.write(0, col + 1, collect['SR Number'][0], format)
+worksheet.write(0, col + 2, collect['SR Number'][1], format)
 for k, v in collect.items():
     #print k, v[0], v[1]
     worksheet.write(row, col, k)
